@@ -1,6 +1,6 @@
 resource "aws_vpc" "vpc1" {
-    cidr_block = "10.100.4.0/16"
+    cidr_block = "10.100.0.0/16"
     tags = {
-        Name = "git_vpc"
+        Name = "git_vpc-user4"
     } 
 }
